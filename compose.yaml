@@ -1,0 +1,6 @@
+services:
+  jamesmain:
+    image: jamesmain
+    build:
+      context: .
+      dockerfile: ./Dockerfile
