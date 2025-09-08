@@ -182,22 +182,22 @@ class HandTyper:
         target = sign.split()
 
 
-        if target == 'BACKSPACE':
-            keyboard.press(pynput.keyboard.Key.backspace)
-            keyboard.release(pynput.keyboard.Key.backspace)
+        # if target == 'BACKSPACE':
+        #     keyboard.press(pynput.keyboard.Key.backspace)
+        #     keyboard.release(pynput.keyboard.Key.backspace)
             
-        elif target == 'ENTER':
-            keyboard.press(pynput.keyboard.Key.space)
-            keyboard.release(pynput.keyboard.Key.space)
+        # elif target == 'ENTER':
+        #     keyboard.press(pynput.keyboard.Key.space)
+        #     keyboard.release(pynput.keyboard.Key.space)
 
             
-        elif target == '1':
-            keyboard.press(pynput.keyboard.KeyCode.from_char('1'))
-            keyboard.release(pynput.keyboard.KeyCode.from_char('1'))
-            keyboard.press(pynput.keyboard.KeyCode.from_char('0'))
-            keyboard.release(pynput.keyboard.KeyCode.from_char('0'))
+        # elif target == '1':
+        #     keyboard.press(pynput.keyboard.KeyCode.from_char('1'))
+        #     keyboard.release(pynput.keyboard.KeyCode.from_char('1'))
+        #     keyboard.press(pynput.keyboard.KeyCode.from_char('0'))
+        #     keyboard.release(pynput.keyboard.KeyCode.from_char('0'))
             
-        elif target == '2':
+        if target == '2':
             self.james_dance()
             
         elif target == '5':
